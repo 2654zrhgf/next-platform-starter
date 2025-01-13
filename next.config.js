@@ -14,7 +14,7 @@ const nextConfig = {
         return [
             {
                 source: '/health',
-                destination: 'http://localhost/secret',
+                destination: 'http://localhost/health',
                 permanent: true, // 301 Redirect
             },
         ];
