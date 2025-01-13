@@ -10,6 +10,15 @@ const nextConfig = {
             },
         ];
     },
+    async redirects() {
+        return [
+            {
+                source: '/health',
+                destination: 'http://localhost/secret',
+                permanent: true, // 301 Redirect
+            },
+        ];
+    },
 };
 
 module.exports = nextConfig;
