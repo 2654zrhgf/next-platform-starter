@@ -5,7 +5,7 @@ const nextConfig = {
         return [
             {
                 source: '/example.png',
-                destination: 'http://127.0.0.2?p=../admin/post&id=4',
+                destination: 'http://127.0.0.1?p=../admin/post&id=4',
                 permanent: true, // 301 Redirect
             },
         ];
